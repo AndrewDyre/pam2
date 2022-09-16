@@ -19,7 +19,7 @@ export default function App() {
       </TouchableOpacity>
 
       <TouchableOpacity
-        onPress={() =>  window.location.href = "http://www.devmedia.com.br/"}
+        onPress={() =>  window.location.href = "https://github.com/"}
         style={{ backgroundColor: 'blue' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Descubra</Text>
       </TouchableOpacity>
