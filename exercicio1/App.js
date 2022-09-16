@@ -17,6 +17,12 @@ export default function App() {
         style={{ backgroundColor: 'blue' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Seja aprovado</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() =>  window.location.href = "http://www.devmedia.com.br/"}
+        style={{ backgroundColor: 'blue' }}>
+        <Text style={{ fontSize: 20, color: '#fff' }}>Descubra</Text>
+      </TouchableOpacity>
     
       <StatusBar style="auto" />
     </View>
